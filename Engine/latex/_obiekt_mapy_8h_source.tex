@@ -1,0 +1,48 @@
+\doxysection{Obiekt\+Mapy.\+h}
+\hypertarget{_obiekt_mapy_8h_source}{}\label{_obiekt_mapy_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ ObiektMapy\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ ObiektMapy\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <SDL.h>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}SDL\_image.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}iostream"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_obiekt_mapy}{ObiektMapy}}\ \{}
+\DoxyCodeLine{00013\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{int}\ id;\ }
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{int}\ x;\ }
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ y;\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{int}\ width;\ }
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{int}\ height;\ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{int}\ centerX;\ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{int}\ centerY;\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{float}\ distance;\ }
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00024\ \ \ \ \ std::string\ \mbox{\hyperlink{class_obiekt_mapy_a0273b95b9fc41a1c977d6d9b2851849d}{name}};\ }
+\DoxyCodeLine{00025\ \ \ \ \ SDL\_Texture*\ \mbox{\hyperlink{class_obiekt_mapy_a19def059b3ff48137546f0d66232a3bd}{texture}};\ }
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00037\ \ \ \ \ \mbox{\hyperlink{class_obiekt_mapy_a750b8c00312c69a4d8569fd3093c15fb}{ObiektMapy}}(SDL\_Renderer*\ renderer,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ sciezkaObrazu,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ std::string\ \mbox{\hyperlink{class_obiekt_mapy_a0273b95b9fc41a1c977d6d9b2851849d}{name}},\ \textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00038\ }
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{int}\ getID();}
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{int}\ getX()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{int}\ getY()\textcolor{keyword}{const};}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{int}\ getWidth()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{int}\ getHeight();}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{int}\ getCenterX();}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{int}\ getCenterY();}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{float}\ getDistance()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ setX(\textcolor{keywordtype}{int}\ newX);}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{void}\ setY(\textcolor{keywordtype}{int}\ newY);}
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{void}\ setWidth(\textcolor{keywordtype}{int}\ newWidth);}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{void}\ setHeight(\textcolor{keywordtype}{int}\ newHeight);}
+\DoxyCodeLine{00051\ \ \ \ \ \textcolor{keywordtype}{void}\ setCenter();}
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ setDistance(\textcolor{keywordtype}{int}\ protagonistX,\ \textcolor{keywordtype}{int}\ protagonistY);}
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{void}\ render(SDL\_Renderer*\ renderer)\textcolor{keyword}{const};}
+\DoxyCodeLine{00054\ \};}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00056\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

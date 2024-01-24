@@ -1,0 +1,27 @@
+<map id="Protagonist::kolizja" name="Protagonist::kolizja">
+<area shape="rect" id="Node000001" title="Obs³uguje kolizje protagonisty z obiektami na mapie." alt="" coords="5,284,138,311"/>
+<area shape="rect" id="Node000002" href="$class_protagonist.html#a7113a2af611bc4c12b4f0a47d609a197" title="Pobiera pozycjÃª X œrodka protagonista." alt="" coords="189,5,348,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="72,283,82,237,102,172,135,103,157,70,184,42,189,38,192,42,187,46,161,74,139,105,107,174,87,238,78,284"/>
+<area shape="rect" id="Node000003" href="$class_protagonist.html#adc896f47de89b814823c15f0787bac3e" title="Pobiera pozycjÃª Y œrodka protagonista." alt="" coords="188,56,349,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="74,283,86,245,108,194,141,140,161,115,184,93,190,88,193,93,187,97,165,118,145,143,113,196,91,247,79,285"/>
+<area shape="rect" id="Node000004" href="$class_protagonist.html#a610c8d43812093d3e087b29dc547ae21" title="Pobiera flagi kolizji w kierunku &quot;a&quot;." alt="" coords="188,107,349,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="77,282,116,216,147,177,184,143,192,138,195,143,187,147,151,181,120,219,81,285"/>
+<area shape="rect" id="Node000005" href="$class_protagonist.html#a79d7c65af5f1f9fa54d35a9cbc3140cf" title="Pobiera flagi kolizji w kierunku &quot;d&quot;." alt="" coords="188,157,349,184"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="83,282,125,239,153,215,184,194,196,188,198,193,187,198,156,219,128,243,87,285"/>
+<area shape="rect" id="Node000006" href="$class_protagonist.html#adc7008dfa20845fe03c70d62079d5a37" title="Pobiera flagi kolizji w kierunku &quot;s&quot;." alt="" coords="188,208,349,235"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="100,281,185,244,204,237,206,242,187,249,102,286"/>
+<area shape="rect" id="Node000007" href="$class_protagonist.html#a787cb4af376190804bb20c072af26887" title="Pobiera flagi kolizji w kierunku &quot;w&quot;." alt="" coords="186,259,351,285"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="138,286,170,282,170,287,138,291"/>
+<area shape="rect" id="Node000008" href="$class_protagonist.html#a50d1db8dae81017f5cd8565eba05284b" title="Pobiera szerokoœÃ¦ protagonista." alt="" coords="195,309,342,336"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="138,303,180,309,179,314,138,308"/>
+<area shape="rect" id="Node000009" href="$class_protagonist.html#ac8dcf33a144dd4d2d3ff5607496ad582" title="Ustawia ID obiektu, z ktÃ³rym protagonist koliduje." alt="" coords="188,360,349,403"/>
+<area shape="poly" id="edge8_Node000001_Node000009" title=" " alt="" coords="104,309,187,346,200,351,198,356,185,350,102,314"/>
+<area shape="rect" id="Node000010" href="$class_protagonist.html#a41725297e5b71b7bfab8c54b475c10a6" title="Ustawia flagi kolizji w kierunku &quot;a&quot;." alt="" coords="188,427,349,453"/>
+<area shape="poly" id="edge9_Node000001_Node000010" title=" " alt="" coords="84,309,125,360,154,388,187,412,197,418,194,422,184,417,151,392,122,363,80,313"/>
+<area shape="rect" id="Node000011" href="$class_protagonist.html#ae5527feb017fb95d7374fb996546021e" title="Ustawia flagi kolizji w kierunku &quot;d&quot;." alt="" coords="188,477,349,504"/>
+<area shape="poly" id="edge10_Node000001_Node000011" title=" " alt="" coords="81,310,95,341,118,383,149,426,187,463,194,468,191,472,184,467,145,430,113,386,90,344,76,312"/>
+<area shape="rect" id="Node000012" href="$class_protagonist.html#abfbe7723b02a5abc847fa811f3565242" title="Ustawia flagi kolizji w kierunku &quot;s&quot;." alt="" coords="188,528,349,555"/>
+<area shape="poly" id="edge11_Node000001_Node000012" title=" " alt="" coords="78,310,90,350,111,405,143,464,164,491,187,514,193,518,189,522,184,518,160,494,139,467,106,407,85,352,73,312"/>
+<area shape="rect" id="Node000013" href="$class_protagonist.html#aad9a7b373bd545e8e1b9361035563b56" title="Ustawia flagi kolizji w kierunku &quot;w&quot;." alt="" coords="186,579,351,605"/>
+<area shape="poly" id="edge12_Node000001_Node000013" title=" " alt="" coords="77,310,86,358,105,427,119,464,138,501,160,535,188,565,192,568,188,572,184,569,156,538,133,503,114,466,100,429,80,360,72,311"/>
+</map>

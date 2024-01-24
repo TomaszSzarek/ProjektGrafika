@@ -1,0 +1,28 @@
+var searchData=
+[
+  ['getactive_0',['getActive',['../class_button.html#a5674d50c6df8029b01d84114d4d705fe',1,'Button']]],
+  ['getamountrandobjectmap_1',['getAmountRandObjectMap',['../class_lista_obiektow.html#a96731104573aad5ac01fa3d5527bbb46',1,'ListaObiektow']]],
+  ['getcenterx_2',['getCenterX',['../class_protagonist.html#a7113a2af611bc4c12b4f0a47d609a197',1,'Protagonist']]],
+  ['getcentery_3',['getCenterY',['../class_protagonist.html#adc896f47de89b814823c15f0787bac3e',1,'Protagonist']]],
+  ['getcurrenthp_4',['getCurrentHp',['../class_object_combat.html#a502c751368fb19483201354ceacea069',1,'ObjectCombat']]],
+  ['getdamage_5',['getDamage',['../class_object_combat.html#a81ed78954713f5baa9b5e1da17a65fc5',1,'ObjectCombat']]],
+  ['getdefenseup_6',['getDefenseUp',['../class_object_combat.html#a292309959f993d5cbdd0008a9f9c3322',1,'ObjectCombat']]],
+  ['getheal_7',['getHeal',['../class_object_combat.html#ae6974c03b9fb4ad22da20391b5c0057c',1,'ObjectCombat']]],
+  ['getheight_8',['getHeight',['../class_background.html#a4f05317c68fcdfd675f40d043eb89f4c',1,'Background::getHeight()'],['../class_bot.html#ae85b91e4c66feb3158ad5838515e9886',1,'Bot::getHeight()'],['../class_protagonist.html#a2cb98313a953c19e6a0461345841c708',1,'Protagonist::getHeight()']]],
+  ['getid_9',['getID',['../class_button.html#a7742284b70f51fa2dc01261bdb1a85cc',1,'Button']]],
+  ['getidobiektkolidujacego_10',['getIdObiektKolidujacego',['../class_protagonist.html#ab9e7f41c29e2977c76ffd0a595533db4',1,'Protagonist']]],
+  ['getkierunek_11',['getKierunek',['../class_protagonist.html#a07188306b98828e1095232f416ebe8c6',1,'Protagonist']]],
+  ['getkillenemy_12',['getKillEnemy',['../class_protagonist.html#aa238dbfa89e6b5f694f80a9d0fd78d7c',1,'Protagonist']]],
+  ['getkolizjaa_13',['getKolizjaA',['../class_protagonist.html#a610c8d43812093d3e087b29dc547ae21',1,'Protagonist']]],
+  ['getkolizjad_14',['getKolizjaD',['../class_protagonist.html#a79d7c65af5f1f9fa54d35a9cbc3140cf',1,'Protagonist']]],
+  ['getkolizjanextlevel_15',['getKolizjaNextLevel',['../class_protagonist.html#a7252ef0be5a3cda5e45054d90aa247ce',1,'Protagonist']]],
+  ['getkolizjas_16',['getKolizjaS',['../class_protagonist.html#adc7008dfa20845fe03c70d62079d5a37',1,'Protagonist']]],
+  ['getkolizjaw_17',['getKolizjaW',['../class_protagonist.html#a787cb4af376190804bb20c072af26887',1,'Protagonist']]],
+  ['getmultiplierad_18',['getMultiplierAd',['../class_skill.html#a70a5bddee8138974a1ea743772a150c3',1,'Skill']]],
+  ['getmultiplierap_19',['getMultiplierAp',['../class_skill.html#ac1871832944f36247d2701cfa555850e',1,'Skill']]],
+  ['getname_20',['getName',['../class_skill.html#a5518ea77e4c27d29d2259551e95d8a4b',1,'Skill']]],
+  ['getspeed_21',['getSpeed',['../class_protagonist.html#ac8e241d203cfee4659c1d572160f3d7e',1,'Protagonist']]],
+  ['getwidth_22',['getWidth',['../class_background.html#a5b52f684a9a71e4604df4e3cc2ac4cc1',1,'Background::getWidth()'],['../class_bot.html#a29c3d9c7268559e4ec3cdc9a94142376',1,'Bot::getWidth()'],['../class_protagonist.html#a50d1db8dae81017f5cd8565eba05284b',1,'Protagonist::getWidth()']]],
+  ['getx_23',['getX',['../class_protagonist.html#a319da4731e86c91a698bd06ab5990d35',1,'Protagonist']]],
+  ['gety_24',['getY',['../class_protagonist.html#ae0d7392f8f4183730d3bc14930ff9f40',1,'Protagonist']]]
+];

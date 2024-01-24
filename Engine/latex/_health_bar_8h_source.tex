@@ -1,0 +1,29 @@
+\doxysection{Health\+Bar.\+h}
+\hypertarget{_health_bar_8h_source}{}\label{_health_bar_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ }
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <SDL.h>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <SDL\_image.h>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00010\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_health_bar}{HealthBar}}\ \{}
+\DoxyCodeLine{00011\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{class_health_bar_a1e32fed018a6d8032ba103869b994ce5}{HealthBar}}(SDL\_Renderer*\ renderer,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{int}\ width,\ \textcolor{keywordtype}{int}\ height);}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{class_health_bar_a4a67801ba7a3b2e82e61d0cd02247771}{\string~HealthBar}}();}
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_health_bar_af6fade5f8db6bd01bf7aca21a05ff2d1}{Render}}(\textcolor{keywordtype}{int}\ currentHP,\ \textcolor{keywordtype}{int}\ maxHP);}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00036\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00037\ \ \ \ \ SDL\_Renderer*\ renderer;\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{int}\ x,\ y,\ width,\ height;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00039\ \ \ \ \ SDL\_Texture*\ backgroundTexture;\ }
+\DoxyCodeLine{00040\ \ \ \ \ SDL\_Texture*\ foregroundTexture;\ }
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ LoadTextures();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00053\ \ \ \ \ SDL\_Texture*\ LoadTexture(\textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ path);}
+\DoxyCodeLine{00054\ \};}
+
+\end{DoxyCode}

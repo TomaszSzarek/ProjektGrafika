@@ -1,0 +1,5 @@
+<map id="ButtonList::addButton" name="ButtonList::addButton">
+<area shape="rect" id="Node000001" title="Metoda dodaj¹ca przycisk do listy przyciskÃ³w." alt="" coords="199,5,346,32"/>
+<area shape="rect" id="Node000002" href="$class_button_list.html#a5b560c05fa3d3c493d6e6d2ab857c972" title="Metoda tworz¹ca listÃª przyciskÃ³w na podstawie renderer&#39;a." alt="" coords="5,5,151,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="183,21,151,21,151,16,183,16"/>
+</map>

@@ -1,0 +1,99 @@
+\doxysection{Protagonist.\+h}
+\hypertarget{_protagonist_8h_source}{}\label{_protagonist_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ PROTAGONIST\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ PROTAGONIST\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <SDL.h>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}SDL\_image.h"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}iostream"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}ListaObiektow.h"{}}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_protagonist}{Protagonist}}\ \{}
+\DoxyCodeLine{00014\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{int}\ x;\ }
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ y;\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{int}\ width;\ }
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{int}\ height;\ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{int}\ CenterX;\ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{int}\ CenterY;\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{int}\ kierunek;\ }
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{int}\ kolizjaW\ =\ 1;\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{int}\ kolizjaS\ =\ 1;\ }
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{int}\ kolizjaA\ =\ 1;\ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{int}\ kolizjaD\ =\ 1;\ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{int}\ kolizjaNextLevel\ =\ 0;\ }
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{int}\ idObiektKolidujacego;\ }
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{int}\ killEnemy\ =\ 0;\ }
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ speed\ =\ 10;\ }
+\DoxyCodeLine{00030\ \ \ \ \ SDL\_Texture*\ texture;\ }
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_a319da4731e86c91a698bd06ab5990d35}{getX}}();}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_ae0d7392f8f4183730d3bc14930ff9f40}{getY}}();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_a50d1db8dae81017f5cd8565eba05284b}{getWidth}}();}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_a2cb98313a953c19e6a0461345841c708}{getHeight}}();}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00066\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_a7113a2af611bc4c12b4f0a47d609a197}{getCenterX}}();}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00073\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_adc896f47de89b814823c15f0787bac3e}{getCenterY}}();}
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00080\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_a07188306b98828e1095232f416ebe8c6}{getKierunek}}();}
+\DoxyCodeLine{00081\ }
+\DoxyCodeLine{00087\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_a787cb4af376190804bb20c072af26887}{getKolizjaW}}();}
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00094\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_adc7008dfa20845fe03c70d62079d5a37}{getKolizjaS}}();}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00101\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_a610c8d43812093d3e087b29dc547ae21}{getKolizjaA}}();}
+\DoxyCodeLine{00102\ }
+\DoxyCodeLine{00108\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_a79d7c65af5f1f9fa54d35a9cbc3140cf}{getKolizjaD}}();}
+\DoxyCodeLine{00109\ }
+\DoxyCodeLine{00115\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_ac8e241d203cfee4659c1d572160f3d7e}{getSpeed}}();}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00122\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_ab9e7f41c29e2977c76ffd0a595533db4}{getIdObiektKolidujacego}}();}
+\DoxyCodeLine{00123\ }
+\DoxyCodeLine{00129\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_aa238dbfa89e6b5f694f80a9d0fd78d7c}{getKillEnemy}}();}
+\DoxyCodeLine{00130\ }
+\DoxyCodeLine{00136\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_protagonist_a7252ef0be5a3cda5e45054d90aa247ce}{getKolizjaNextLevel}}();}
+\DoxyCodeLine{00137\ }
+\DoxyCodeLine{00141\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a168d2dceec49645e028a791ab1a4bec8}{setCenter}}();}
+\DoxyCodeLine{00142\ }
+\DoxyCodeLine{00148\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_ae03c22bd357ccd4f85d4302352d4f18a}{setX}}(\textcolor{keywordtype}{int}\ newX);}
+\DoxyCodeLine{00149\ }
+\DoxyCodeLine{00155\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_ab64b6b810990c08524d72ad0bd7c35e3}{setY}}(\textcolor{keywordtype}{int}\ newY);}
+\DoxyCodeLine{00156\ }
+\DoxyCodeLine{00162\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a71479fbc9a2befd827f305a315f8c048}{setWidth}}(\textcolor{keywordtype}{int}\ newWidth);}
+\DoxyCodeLine{00163\ }
+\DoxyCodeLine{00169\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a9b1118aaa0c19b2f0cff8b5096341894}{setHeight}}(\textcolor{keywordtype}{int}\ newHeight);}
+\DoxyCodeLine{00170\ }
+\DoxyCodeLine{00176\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a3ab0c2b2fc6cc2a88efdc133400cf95e}{setKierunek}}(\textcolor{keywordtype}{int}\ newKierunek);}
+\DoxyCodeLine{00177\ }
+\DoxyCodeLine{00183\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_aad9a7b373bd545e8e1b9361035563b56}{setKolizjaW}}(\textcolor{keywordtype}{int}\ newKolizjaW);}
+\DoxyCodeLine{00184\ }
+\DoxyCodeLine{00190\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_abfbe7723b02a5abc847fa811f3565242}{setKolizjaS}}(\textcolor{keywordtype}{int}\ newKolizjaS);}
+\DoxyCodeLine{00191\ }
+\DoxyCodeLine{00197\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a41725297e5b71b7bfab8c54b475c10a6}{setKolizjaA}}(\textcolor{keywordtype}{int}\ newKolizjaA);}
+\DoxyCodeLine{00198\ }
+\DoxyCodeLine{00204\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_ae5527feb017fb95d7374fb996546021e}{setKolizjaD}}(\textcolor{keywordtype}{int}\ newKolizjaD);}
+\DoxyCodeLine{00205\ }
+\DoxyCodeLine{00211\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_ac8dcf33a144dd4d2d3ff5607496ad582}{setIdObiektKolidujacego}}(\textcolor{keywordtype}{int}\ newID);}
+\DoxyCodeLine{00212\ }
+\DoxyCodeLine{00218\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a4852a5571eaf0560714dd6965219adc2}{setKillEnemy}}(\textcolor{keywordtype}{int}\ newKillEnemy);}
+\DoxyCodeLine{00219\ }
+\DoxyCodeLine{00225\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a99b5ac5cbd0c67af25ce155904ac69d5}{setKolizjaNextLevel}}(\textcolor{keywordtype}{int}\ newKolizjaNextLevel);}
+\DoxyCodeLine{00226\ }
+\DoxyCodeLine{00233\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a973b138b8fab832082c18f7f718f75e7}{setObraz}}(SDL\_Renderer*\ renderer,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ nowaSciezkaObrazu);}
+\DoxyCodeLine{00234\ }
+\DoxyCodeLine{00240\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a4aab843b6125e4efa70b70e38d58f38a}{kolizja}}(std::vector<ObiektMapy>\&\ objectList);}
+\DoxyCodeLine{00241\ }
+\DoxyCodeLine{00250\ \ \ \ \ \mbox{\hyperlink{class_protagonist_a923baa46c7e369c776c5bb63ab94474c}{Protagonist}}(SDL\_Renderer*\ renderer,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}*\ sciezkaObrazuProtagonisty,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y);}
+\DoxyCodeLine{00251\ }
+\DoxyCodeLine{00257\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_protagonist_a0c40c0e710de6dddca56872b5c4ba314}{render}}(SDL\_Renderer*\ renderer);}
+\DoxyCodeLine{00258\ \};}
+\DoxyCodeLine{00259\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

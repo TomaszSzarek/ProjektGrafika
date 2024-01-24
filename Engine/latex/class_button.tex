@@ -1,0 +1,141 @@
+\doxysection{Button Class Reference}
+\hypertarget{class_button}{}\label{class_button}\index{Button@{Button}}
+
+
+Klasa reprezentuj¹ca przycisk w grze.  
+
+
+
+
+{\ttfamily \#include $<$Button.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_button_a55fee0d5f094dab98a0b157468495503}{Button}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer, const char \texorpdfstring{$\ast$}{*}sciezka\+Obrazu, int x, int y, std\+::string name, bool active, int id)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_button}{Button}, inicjalizuje przycisk na podstawie podanej œcie¿ki do obrazu. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_button_a5674d50c6df8029b01d84114d4d705fe}{get\+Active}} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracaj¹ca stan aktywnoœci przycisku. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_button_ada4d479b9bfb12521cccfbb9e865a775}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\begin{DoxyCompactList}\small\item\em Metoda renderuj¹ca przycisk na ekranie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_button_a3251ea6acbe1964c86f8c3e254330461}{set\+Button}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer, const char \texorpdfstring{$\ast$}{*}nowasciezka\+Obrazu)
+\begin{DoxyCompactList}\small\item\em Metoda zmieniaj¹ca teksturê przycisku na now¹ na podstawie podanej œcie¿ki. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_button_ae22d671f4b32724985cd3d2cbeeccd3b}{set\+Active}} (bool new\+Active)
+\begin{DoxyCompactList}\small\item\em Metoda ustawiaj¹ca stan aktywnoœci przycisku. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_button_a7742284b70f51fa2dc01261bdb1a85cc}{get\+ID}} ()
+\begin{DoxyCompactList}\small\item\em Metoda zwracaj¹ca identyfikator przycisku. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentuj¹ca przycisk w grze. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_button_a55fee0d5f094dab98a0b157468495503}\label{class_button_a55fee0d5f094dab98a0b157468495503} 
+\index{Button@{Button}!Button@{Button}}
+\index{Button@{Button}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{Button()}{Button()}}
+{\footnotesize\ttfamily Button\+::\+Button (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{sciezka\+Obrazu,  }\item[{int}]{x,  }\item[{int}]{y,  }\item[{std\+::string}]{name,  }\item[{bool}]{active,  }\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \doxylink{class_button}{Button}, inicjalizuje przycisk na podstawie podanej œcie¿ki do obrazu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL. \\
+\hline
+{\em sciezka\+Obrazu} & Œcie¿ka do obrazu przycisku. \\
+\hline
+{\em x} & Wspó³rzêdna X, na której zostanie narysowany przycisk. \\
+\hline
+{\em y} & Wspó³rzêdna Y, na której zostanie narysowany przycisk. \\
+\hline
+{\em name} & Nazwa przycisku. \\
+\hline
+{\em active} & Flaga aktywnoœci przycisku. \\
+\hline
+{\em id} & Identyfikator przycisku. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_button_a5674d50c6df8029b01d84114d4d705fe}\label{class_button_a5674d50c6df8029b01d84114d4d705fe} 
+\index{Button@{Button}!getActive@{getActive}}
+\index{getActive@{getActive}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{getActive()}{getActive()}}
+{\footnotesize\ttfamily bool Button\+::get\+Active (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metoda zwracaj¹ca stan aktywnoœci przycisku. 
+
+\begin{DoxyReturn}{Returns}
+True, jeœli przycisk jest aktywny; False w przeciwnym razie. 
+\end{DoxyReturn}
+\Hypertarget{class_button_a7742284b70f51fa2dc01261bdb1a85cc}\label{class_button_a7742284b70f51fa2dc01261bdb1a85cc} 
+\index{Button@{Button}!getID@{getID}}
+\index{getID@{getID}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{getID()}{getID()}}
+{\footnotesize\ttfamily int Button\+::get\+ID (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Metoda zwracaj¹ca identyfikator przycisku. 
+
+\begin{DoxyReturn}{Returns}
+Identyfikator przycisku. 
+\end{DoxyReturn}
+\Hypertarget{class_button_ada4d479b9bfb12521cccfbb9e865a775}\label{class_button_ada4d479b9bfb12521cccfbb9e865a775} 
+\index{Button@{Button}!render@{render}}
+\index{render@{render}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Button\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer }\end{DoxyParamCaption})}
+
+
+
+Metoda renderuj¹ca przycisk na ekranie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_button_ae22d671f4b32724985cd3d2cbeeccd3b}\label{class_button_ae22d671f4b32724985cd3d2cbeeccd3b} 
+\index{Button@{Button}!setActive@{setActive}}
+\index{setActive@{setActive}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{setActive()}{setActive()}}
+{\footnotesize\ttfamily void Button\+::set\+Active (\begin{DoxyParamCaption}\item[{bool}]{new\+Active }\end{DoxyParamCaption})}
+
+
+
+Metoda ustawiaj¹ca stan aktywnoœci przycisku. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Active} & Nowy stan aktywnoœci przycisku. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_button_a3251ea6acbe1964c86f8c3e254330461}\label{class_button_a3251ea6acbe1964c86f8c3e254330461} 
+\index{Button@{Button}!setButton@{setButton}}
+\index{setButton@{setButton}!Button@{Button}}
+\doxysubsubsection{\texorpdfstring{setButton()}{setButton()}}
+{\footnotesize\ttfamily void Button\+::set\+Button (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{nowasciezka\+Obrazu }\end{DoxyParamCaption})}
+
+
+
+Metoda zmieniaj¹ca teksturê przycisku na now¹ na podstawie podanej œcie¿ki. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL. \\
+\hline
+{\em nowasciezka\+Obrazu} & Œcie¿ka do nowej tekstury przycisku. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Button.\+h\item 
+Button.\+cpp\end{DoxyCompactItemize}

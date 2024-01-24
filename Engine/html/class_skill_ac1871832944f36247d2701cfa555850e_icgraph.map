@@ -1,0 +1,9 @@
+<map id="Skill::getMultiplierAp" name="Skill::getMultiplierAp">
+<area shape="rect" id="Node000001" title="Pobiera wskaŸnik mno¿nika obra¿eÃ± magicznych (AP) umiejÃªtnoœci." alt="" coords="247,56,387,83"/>
+<area shape="rect" id="Node000002" href="$class_object_combat.html#a81ed78954713f5baa9b5e1da17a65fc5" title="Oblicza i zwraca obra¿enia zadane obiektowi." alt="" coords="13,5,191,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="242,54,161,35,162,30,243,49"/>
+<area shape="rect" id="Node000003" href="$class_object_combat.html#a292309959f993d5cbdd0008a9f9c3322" title="ZwiÃªksza obronÃª obiektu w odpowiedniej kategorii." alt="" coords="5,56,199,83"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="231,72,199,72,199,67,231,67"/>
+<area shape="rect" id="Node000004" href="$class_object_combat.html#ae6974c03b9fb4ad22da20391b5c0057c" title="Uzdrawia obiekt na podstawie u¿ytej umiejÃªtnoœci." alt="" coords="24,107,180,133"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="243,89,162,109,161,103,242,84"/>
+</map>

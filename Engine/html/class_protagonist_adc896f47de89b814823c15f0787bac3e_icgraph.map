@@ -1,0 +1,5 @@
+<map id="Protagonist::getCenterY" name="Protagonist::getCenterY">
+<area shape="rect" id="Node000001" title="Pobiera pozycjÃª Y œrodka protagonista." alt="" coords="186,5,346,32"/>
+<area shape="rect" id="Node000002" href="$class_protagonist.html#a4aab843b6125e4efa70b70e38d58f38a" title="Obs³uguje kolizje protagonisty z obiektami na mapie." alt="" coords="5,5,138,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,21,138,21,138,16,170,16"/>
+</map>

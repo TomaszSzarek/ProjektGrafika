@@ -1,0 +1,119 @@
+\doxysection{Button\+List Class Reference}
+\hypertarget{class_button_list}{}\label{class_button_list}\index{ButtonList@{ButtonList}}
+
+
+Klasa reprezentuj¹ca listê przycisków w grze.  
+
+
+
+
+{\ttfamily \#include $<$Button\+List.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_button_list_ae7a004a6dbd933af52dd757dfcadb356}\label{class_button_list_ae7a004a6dbd933af52dd757dfcadb356} 
+{\bfseries Button\+List} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_button_list}{Button\+List}, inicjalizuje pust¹ listê przycisków. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_button_list_a7cb6eb7059ed34fed618f54b5fa63d3e}{add\+Button}} (\mbox{\hyperlink{class_button}{Button}} \&button)
+\begin{DoxyCompactList}\small\item\em Metoda dodaj¹ca przycisk do listy przycisków. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_button_list_a5b560c05fa3d3c493d6e6d2ab857c972}{create\+List}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\begin{DoxyCompactList}\small\item\em Metoda tworz¹ca listê przycisków na podstawie renderer\textquotesingle{}a. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_button_list_a27a0b4be3e3f82a4eeacb4e623033bff}{print\+List}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\begin{DoxyCompactList}\small\item\em Metoda renderuj¹ca wszystkie przyciski na ekranie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_button_list_a55fa3e08a2430bf58d7309eef97295e9}{check\+Active}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\begin{DoxyCompactList}\small\item\em Metoda sprawdzaj¹ca aktywnoœæ przycisków i aktualizuj¹ca ich wygl¹d. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_button_list_a1019608ff540bd886d5bca49bd6ac90d}\label{class_button_list_a1019608ff540bd886d5bca49bd6ac90d} 
+std\+::vector$<$ \mbox{\hyperlink{class_button}{Button}} $>$ {\bfseries button\+List}
+\begin{DoxyCompactList}\small\item\em Wektor przechowuj¹cy przyciski. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentuj¹ca listê przycisków w grze. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_button_list_a7cb6eb7059ed34fed618f54b5fa63d3e}\label{class_button_list_a7cb6eb7059ed34fed618f54b5fa63d3e} 
+\index{ButtonList@{ButtonList}!addButton@{addButton}}
+\index{addButton@{addButton}!ButtonList@{ButtonList}}
+\doxysubsubsection{\texorpdfstring{addButton()}{addButton()}}
+{\footnotesize\ttfamily void Button\+List\+::add\+Button (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_button}{Button}} \&}]{button }\end{DoxyParamCaption})}
+
+
+
+Metoda dodaj¹ca przycisk do listy przycisków. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em button} & Referencja do przycisku, który zostanie dodany do listy. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_button_list_a7cb6eb7059ed34fed618f54b5fa63d3e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_button_list_a55fa3e08a2430bf58d7309eef97295e9}\label{class_button_list_a55fa3e08a2430bf58d7309eef97295e9} 
+\index{ButtonList@{ButtonList}!checkActive@{checkActive}}
+\index{checkActive@{checkActive}!ButtonList@{ButtonList}}
+\doxysubsubsection{\texorpdfstring{checkActive()}{checkActive()}}
+{\footnotesize\ttfamily void Button\+List\+::check\+Active (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer }\end{DoxyParamCaption})}
+
+
+
+Metoda sprawdzaj¹ca aktywnoœæ przycisków i aktualizuj¹ca ich wygl¹d. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL, który bêdzie u¿ywany do renderowania przycisków. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_button_list_a5b560c05fa3d3c493d6e6d2ab857c972}\label{class_button_list_a5b560c05fa3d3c493d6e6d2ab857c972} 
+\index{ButtonList@{ButtonList}!createList@{createList}}
+\index{createList@{createList}!ButtonList@{ButtonList}}
+\doxysubsubsection{\texorpdfstring{createList()}{createList()}}
+{\footnotesize\ttfamily void Button\+List\+::create\+List (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer }\end{DoxyParamCaption})}
+
+
+
+Metoda tworz¹ca listê przycisków na podstawie renderer\textquotesingle{}a. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL, który bêdzie u¿ywany do wczytania tekstur przycisków. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_button_list_a5b560c05fa3d3c493d6e6d2ab857c972_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_button_list_a27a0b4be3e3f82a4eeacb4e623033bff}\label{class_button_list_a27a0b4be3e3f82a4eeacb4e623033bff} 
+\index{ButtonList@{ButtonList}!printList@{printList}}
+\index{printList@{printList}!ButtonList@{ButtonList}}
+\doxysubsubsection{\texorpdfstring{printList()}{printList()}}
+{\footnotesize\ttfamily void Button\+List\+::print\+List (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer }\end{DoxyParamCaption})}
+
+
+
+Metoda renderuj¹ca wszystkie przyciski na ekranie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL, który bêdzie u¿ywany do renderowania przycisków. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Button\+List.\+h\item 
+Button\+List.\+cpp\end{DoxyCompactItemize}

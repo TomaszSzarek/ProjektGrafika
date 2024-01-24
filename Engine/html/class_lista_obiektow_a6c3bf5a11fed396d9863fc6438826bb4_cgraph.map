@@ -1,0 +1,5 @@
+<map id="ListaObiektow::creatList" name="ListaObiektow::creatList">
+<area shape="rect" id="Node000001" title="Tworzy listê obiektów na podstawie renderera." alt="" coords="5,5,167,32"/>
+<area shape="rect" id="Node000002" href="$class_lista_obiektow.html#ac549d7937c282a75b484268d14141fb3" title="Dodaje obiekt do listy." alt="" coords="215,5,385,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="167,16,199,16,199,21,167,21"/>
+</map>

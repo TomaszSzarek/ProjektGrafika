@@ -1,0 +1,206 @@
+\doxysection{Object\+Combat Class Reference}
+\hypertarget{class_object_combat}{}\label{class_object_combat}\index{ObjectCombat@{ObjectCombat}}
+
+
+Klasa reprezentuj¹ca obiekt w systemie walki.  
+
+
+
+
+{\ttfamily \#include $<$Object\+Combat.\+h$>$}
+
+
+
+Collaboration diagram for Object\+Combat\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=158pt]{class_object_combat__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_object_combat_a69aab91d82f32bca837e8b528ca629a0}{Object\+Combat}} (float Max\+Hp, float current\+Hp, float physical\+Dmg, float magic\+Dmg, float physical\+Defense, float magic\+Defense)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_object_combat}{Object\+Combat}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{class_object_combat_a502c751368fb19483201354ceacea069}{get\+Current\+Hp}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera aktualn¹ iloœæ punktów ¿ycia. \end{DoxyCompactList}\item 
+\Hypertarget{class_object_combat_a63c13f5b3a78122a676c43ec295a39b8}\label{class_object_combat_a63c13f5b3a78122a676c43ec295a39b8} 
+float {\bfseries get\+Physical\+Dmg} ()
+\item 
+\Hypertarget{class_object_combat_a99520dde7dbebfde62863fb003f84b50}\label{class_object_combat_a99520dde7dbebfde62863fb003f84b50} 
+float {\bfseries get\+Magic\+Dmg} ()
+\item 
+\Hypertarget{class_object_combat_a0890d58d11404a7cca2fb8c5994ff047}\label{class_object_combat_a0890d58d11404a7cca2fb8c5994ff047} 
+float {\bfseries get\+Physical\+Defense} ()
+\item 
+\Hypertarget{class_object_combat_aa1265de0be2accd2741e28af15bf9441}\label{class_object_combat_aa1265de0be2accd2741e28af15bf9441} 
+float {\bfseries get\+Magic\+Defense} ()
+\item 
+\Hypertarget{class_object_combat_af06ca6c5ddabbf801c9e112af66f5177}\label{class_object_combat_af06ca6c5ddabbf801c9e112af66f5177} 
+float {\bfseries get\+Max\+Hp} ()
+\item 
+void \mbox{\hyperlink{class_object_combat_a81ed78954713f5baa9b5e1da17a65fc5}{get\+Damage}} (float physical\+Dmg, float magical\+Dmg, \mbox{\hyperlink{class_skill}{Skill}} skill)
+\begin{DoxyCompactList}\small\item\em Oblicza i zwraca obra¿enia zadane obiektowi. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_object_combat_a292309959f993d5cbdd0008a9f9c3322}{get\+Defense\+Up}} (int type\+Of\+Defense, \mbox{\hyperlink{class_skill}{Skill}} skill)
+\begin{DoxyCompactList}\small\item\em Zwiêksza obronê obiektu w odpowiedniej kategorii. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_object_combat_ae6974c03b9fb4ad22da20391b5c0057c}{get\+Heal}} (\mbox{\hyperlink{class_skill}{Skill}} skill)
+\begin{DoxyCompactList}\small\item\em Uzdrawia obiekt na podstawie u¿ytej umiejêtnoœci. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_object_combat_a2bd549a04a96a7c411b4f8bf06ea8e34}{set\+Current\+Hp}} (float new\+Hp)
+\begin{DoxyCompactList}\small\item\em Ustawia aktualn¹ iloœæ punktów ¿ycia. \end{DoxyCompactList}\item 
+\Hypertarget{class_object_combat_aaeb90723444dece8f442cb6a75fa337a}\label{class_object_combat_aaeb90723444dece8f442cb6a75fa337a} 
+void {\bfseries set\+Current\+Magic\+Defense} (float new\+Magic\+Defense)
+\item 
+\Hypertarget{class_object_combat_a8cd316deba03f20dc211f73108f434fc}\label{class_object_combat_a8cd316deba03f20dc211f73108f434fc} 
+void {\bfseries set\+Current\+Physical\+Defense} (float new\+Physical\+Defense)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_object_combat_abc82fbbbb789ecffde07a7738b631523}\label{class_object_combat_abc82fbbbb789ecffde07a7738b631523} 
+\mbox{\hyperlink{class_skill_list}{Skill\+List}} {\bfseries skills}
+\begin{DoxyCompactList}\small\item\em Lista umiejêtnoœci obiektu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentuj¹ca obiekt w systemie walki. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_object_combat_a69aab91d82f32bca837e8b528ca629a0}\label{class_object_combat_a69aab91d82f32bca837e8b528ca629a0} 
+\index{ObjectCombat@{ObjectCombat}!ObjectCombat@{ObjectCombat}}
+\index{ObjectCombat@{ObjectCombat}!ObjectCombat@{ObjectCombat}}
+\doxysubsubsection{\texorpdfstring{ObjectCombat()}{ObjectCombat()}}
+{\footnotesize\ttfamily Object\+Combat\+::\+Object\+Combat (\begin{DoxyParamCaption}\item[{float}]{Max\+Hp,  }\item[{float}]{current\+Hp,  }\item[{float}]{physical\+Dmg,  }\item[{float}]{magic\+Dmg,  }\item[{float}]{physical\+Defense,  }\item[{float}]{magic\+Defense }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \doxylink{class_object_combat}{Object\+Combat}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em Max\+Hp} & Maksymalna iloœæ punktów ¿ycia. \\
+\hline
+{\em current\+Hp} & Aktualna iloœæ punktów ¿ycia. \\
+\hline
+{\em physical\+Dmg} & Fizyczne obra¿enia. \\
+\hline
+{\em magic\+Dmg} & Magiczne obra¿enia. \\
+\hline
+{\em physical\+Defense} & Obrona przed fizycznymi obra¿eniami. \\
+\hline
+{\em magic\+Defense} & Obrona przed magicznymi obra¿eniami. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_object_combat_a502c751368fb19483201354ceacea069}\label{class_object_combat_a502c751368fb19483201354ceacea069} 
+\index{ObjectCombat@{ObjectCombat}!getCurrentHp@{getCurrentHp}}
+\index{getCurrentHp@{getCurrentHp}!ObjectCombat@{ObjectCombat}}
+\doxysubsubsection{\texorpdfstring{getCurrentHp()}{getCurrentHp()}}
+{\footnotesize\ttfamily float Object\+Combat\+::get\+Current\+Hp (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera aktualn¹ iloœæ punktów ¿ycia. 
+
+\begin{DoxyReturn}{Returns}
+Aktualna iloœæ punktów ¿ycia. 
+\end{DoxyReturn}
+\Hypertarget{class_object_combat_a81ed78954713f5baa9b5e1da17a65fc5}\label{class_object_combat_a81ed78954713f5baa9b5e1da17a65fc5} 
+\index{ObjectCombat@{ObjectCombat}!getDamage@{getDamage}}
+\index{getDamage@{getDamage}!ObjectCombat@{ObjectCombat}}
+\doxysubsubsection{\texorpdfstring{getDamage()}{getDamage()}}
+{\footnotesize\ttfamily void Object\+Combat\+::get\+Damage (\begin{DoxyParamCaption}\item[{float}]{physical\+Dmg,  }\item[{float}]{magical\+Dmg,  }\item[{\mbox{\hyperlink{class_skill}{Skill}}}]{skill }\end{DoxyParamCaption})}
+
+
+
+Oblicza i zwraca obra¿enia zadane obiektowi. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em physical\+Dmg} & Obra¿enia fizyczne. \\
+\hline
+{\em magical\+Dmg} & Obra¿enia magiczne. \\
+\hline
+{\em skill} & Umiejêtnoœæ u¿yta przeciwko obiektowi. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_object_combat_a81ed78954713f5baa9b5e1da17a65fc5_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_object_combat_a292309959f993d5cbdd0008a9f9c3322}\label{class_object_combat_a292309959f993d5cbdd0008a9f9c3322} 
+\index{ObjectCombat@{ObjectCombat}!getDefenseUp@{getDefenseUp}}
+\index{getDefenseUp@{getDefenseUp}!ObjectCombat@{ObjectCombat}}
+\doxysubsubsection{\texorpdfstring{getDefenseUp()}{getDefenseUp()}}
+{\footnotesize\ttfamily void Object\+Combat\+::get\+Defense\+Up (\begin{DoxyParamCaption}\item[{int}]{type\+Of\+Defense,  }\item[{\mbox{\hyperlink{class_skill}{Skill}}}]{skill }\end{DoxyParamCaption})}
+
+
+
+Zwiêksza obronê obiektu w odpowiedniej kategorii. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type\+Of\+Defense} & Typ obrony (fizyczna lub magiczna). \\
+\hline
+{\em skill} & Umiejêtnoœæ u¿yta do zwiêkszenia obrony. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_object_combat_a292309959f993d5cbdd0008a9f9c3322_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_object_combat_ae6974c03b9fb4ad22da20391b5c0057c}\label{class_object_combat_ae6974c03b9fb4ad22da20391b5c0057c} 
+\index{ObjectCombat@{ObjectCombat}!getHeal@{getHeal}}
+\index{getHeal@{getHeal}!ObjectCombat@{ObjectCombat}}
+\doxysubsubsection{\texorpdfstring{getHeal()}{getHeal()}}
+{\footnotesize\ttfamily void Object\+Combat\+::get\+Heal (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_skill}{Skill}}}]{skill }\end{DoxyParamCaption})}
+
+
+
+Uzdrawia obiekt na podstawie u¿ytej umiejêtnoœci. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em skill} & Umiejêtnoœæ uzdrawiaj¹ca. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_object_combat_ae6974c03b9fb4ad22da20391b5c0057c_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_object_combat_a2bd549a04a96a7c411b4f8bf06ea8e34}\label{class_object_combat_a2bd549a04a96a7c411b4f8bf06ea8e34} 
+\index{ObjectCombat@{ObjectCombat}!setCurrentHp@{setCurrentHp}}
+\index{setCurrentHp@{setCurrentHp}!ObjectCombat@{ObjectCombat}}
+\doxysubsubsection{\texorpdfstring{setCurrentHp()}{setCurrentHp()}}
+{\footnotesize\ttfamily void Object\+Combat\+::set\+Current\+Hp (\begin{DoxyParamCaption}\item[{float}]{new\+Hp }\end{DoxyParamCaption})}
+
+
+
+Ustawia aktualn¹ iloœæ punktów ¿ycia. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Hp} & Nowa iloœæ punktów ¿ycia. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Object\+Combat.\+h\item 
+Object\+Combat.\+cpp\end{DoxyCompactItemize}

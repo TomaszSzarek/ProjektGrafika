@@ -1,0 +1,5 @@
+<map id="Skill::getMultiplierAd" name="Skill::getMultiplierAd">
+<area shape="rect" id="Node000001" title="Pobiera wskaŸnik mno¿nika obra¿eÃ± fizycznych (AD) umiejÃªtnoœci." alt="" coords="232,5,372,32"/>
+<area shape="rect" id="Node000002" href="$class_object_combat.html#a81ed78954713f5baa9b5e1da17a65fc5" title="Oblicza i zwraca obra¿enia zadane obiektowi." alt="" coords="5,5,184,32"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="216,21,184,21,184,16,216,16"/>
+</map>

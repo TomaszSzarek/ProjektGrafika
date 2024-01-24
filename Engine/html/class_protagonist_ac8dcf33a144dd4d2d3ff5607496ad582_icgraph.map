@@ -1,0 +1,5 @@
+<map id="Protagonist::setIdObiektKolidujacego" name="Protagonist::setIdObiektKolidujacego">
+<area shape="rect" id="Node000001" title="Ustawia ID obiektu, z ktÃ³rym protagonist koliduje." alt="" coords="186,5,347,48"/>
+<area shape="rect" id="Node000002" href="$class_protagonist.html#a4aab843b6125e4efa70b70e38d58f38a" title="Obs³uguje kolizje protagonisty z obiektami na mapie." alt="" coords="5,13,138,40"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="170,29,138,29,138,24,170,24"/>
+</map>

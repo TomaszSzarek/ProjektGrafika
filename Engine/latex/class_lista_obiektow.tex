@@ -1,0 +1,137 @@
+\doxysection{Lista\+Obiektow Class Reference}
+\hypertarget{class_lista_obiektow}{}\label{class_lista_obiektow}\index{ListaObiektow@{ListaObiektow}}
+
+
+Klasa reprezentuj¹ca listê obiektów na mapie.  
+
+
+
+
+{\ttfamily \#include $<$Lista\+Obiektow.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_lista_obiektow_a171f6ef5204d35603b59da46c191d32a}\label{class_lista_obiektow_a171f6ef5204d35603b59da46c191d32a} 
+{\bfseries Lista\+Obiektow} ()
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_lista_obiektow}{Lista\+Obiektow}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lista_obiektow_ac549d7937c282a75b484268d14141fb3}{add\+Obiekt}} (\mbox{\hyperlink{class_obiekt_mapy}{Obiekt\+Mapy}} \&obiekt\+Mapy)
+\begin{DoxyCompactList}\small\item\em Dodaje obiekt do listy. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lista_obiektow_a6c3bf5a11fed396d9863fc6438826bb4}{creat\+List}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\begin{DoxyCompactList}\small\item\em Tworzy listê obiektów na podstawie renderera. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lista_obiektow_a8058a8460769a9c15f4cf64fb28cf796}{print\+List}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\begin{DoxyCompactList}\small\item\em Wyœwietla listê obiektów na ekranie za pomoc¹ renderera. \end{DoxyCompactList}\item 
+\Hypertarget{class_lista_obiektow_ac2fe4be7f2a4966e27cda24aba04f621}\label{class_lista_obiektow_ac2fe4be7f2a4966e27cda24aba04f621} 
+void {\bfseries rand\+Object\+Map} ()
+\begin{DoxyCompactList}\small\item\em Generuje losowo obiekty na mapie. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_lista_obiektow_a5664b33dd5b472581d3b9d9c501a12d2}{set\+Amount\+Rand\+Object\+Map}} (int new\+Amount\+Rand\+Object\+Map)
+\begin{DoxyCompactList}\small\item\em Ustawia liczbê losowo generowanych obiektów na mapie. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_lista_obiektow_a96731104573aad5ac01fa3d5527bbb46}{get\+Amount\+Rand\+Object\+Map}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera liczbê losowo generowanych obiektów na mapie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{class_lista_obiektow_a71f53d16194411edbf7a377104e28f99}\label{class_lista_obiektow_a71f53d16194411edbf7a377104e28f99} 
+std\+::vector$<$ \mbox{\hyperlink{class_obiekt_mapy}{Obiekt\+Mapy}} $>$ {\bfseries object\+List}
+\begin{DoxyCompactList}\small\item\em Lista obiektów. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentuj¹ca listê obiektów na mapie. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_lista_obiektow_ac549d7937c282a75b484268d14141fb3}\label{class_lista_obiektow_ac549d7937c282a75b484268d14141fb3} 
+\index{ListaObiektow@{ListaObiektow}!addObiekt@{addObiekt}}
+\index{addObiekt@{addObiekt}!ListaObiektow@{ListaObiektow}}
+\doxysubsubsection{\texorpdfstring{addObiekt()}{addObiekt()}}
+{\footnotesize\ttfamily void Lista\+Obiektow\+::add\+Obiekt (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_obiekt_mapy}{Obiekt\+Mapy}} \&}]{obiekt\+Mapy }\end{DoxyParamCaption})}
+
+
+
+Dodaje obiekt do listy. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obiekt\+Mapy} & Obiekt do dodania do listy. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lista_obiektow_ac549d7937c282a75b484268d14141fb3_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_lista_obiektow_a6c3bf5a11fed396d9863fc6438826bb4}\label{class_lista_obiektow_a6c3bf5a11fed396d9863fc6438826bb4} 
+\index{ListaObiektow@{ListaObiektow}!creatList@{creatList}}
+\index{creatList@{creatList}!ListaObiektow@{ListaObiektow}}
+\doxysubsubsection{\texorpdfstring{creatList()}{creatList()}}
+{\footnotesize\ttfamily void Lista\+Obiektow\+::creat\+List (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer }\end{DoxyParamCaption})}
+
+
+
+Tworzy listê obiektów na podstawie renderera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_lista_obiektow_a6c3bf5a11fed396d9863fc6438826bb4_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_lista_obiektow_a96731104573aad5ac01fa3d5527bbb46}\label{class_lista_obiektow_a96731104573aad5ac01fa3d5527bbb46} 
+\index{ListaObiektow@{ListaObiektow}!getAmountRandObjectMap@{getAmountRandObjectMap}}
+\index{getAmountRandObjectMap@{getAmountRandObjectMap}!ListaObiektow@{ListaObiektow}}
+\doxysubsubsection{\texorpdfstring{getAmountRandObjectMap()}{getAmountRandObjectMap()}}
+{\footnotesize\ttfamily int Lista\+Obiektow\+::get\+Amount\+Rand\+Object\+Map (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera liczbê losowo generowanych obiektów na mapie. 
+
+\begin{DoxyReturn}{Returns}
+Aktualna liczba obiektów do wygenerowania. 
+\end{DoxyReturn}
+\Hypertarget{class_lista_obiektow_a8058a8460769a9c15f4cf64fb28cf796}\label{class_lista_obiektow_a8058a8460769a9c15f4cf64fb28cf796} 
+\index{ListaObiektow@{ListaObiektow}!printList@{printList}}
+\index{printList@{printList}!ListaObiektow@{ListaObiektow}}
+\doxysubsubsection{\texorpdfstring{printList()}{printList()}}
+{\footnotesize\ttfamily void Lista\+Obiektow\+::print\+List (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer }\end{DoxyParamCaption})}
+
+
+
+Wyœwietla listê obiektów na ekranie za pomoc¹ renderera. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_lista_obiektow_a5664b33dd5b472581d3b9d9c501a12d2}\label{class_lista_obiektow_a5664b33dd5b472581d3b9d9c501a12d2} 
+\index{ListaObiektow@{ListaObiektow}!setAmountRandObjectMap@{setAmountRandObjectMap}}
+\index{setAmountRandObjectMap@{setAmountRandObjectMap}!ListaObiektow@{ListaObiektow}}
+\doxysubsubsection{\texorpdfstring{setAmountRandObjectMap()}{setAmountRandObjectMap()}}
+{\footnotesize\ttfamily void Lista\+Obiektow\+::set\+Amount\+Rand\+Object\+Map (\begin{DoxyParamCaption}\item[{int}]{new\+Amount\+Rand\+Object\+Map }\end{DoxyParamCaption})}
+
+
+
+Ustawia liczbê losowo generowanych obiektów na mapie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Amount\+Rand\+Object\+Map} & Nowa liczba obiektów do wygenerowania. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Lista\+Obiektow.\+h\item 
+Lista\+Obiektow.\+cpp\end{DoxyCompactItemize}

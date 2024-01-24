@@ -1,0 +1,50 @@
+\doxysection{Object\+Combat.\+h}
+\hypertarget{_object_combat_8h_source}{}\label{_object_combat_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#ifndef\ ObjectCombat\_H}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#define\ ObjectCombat\_H}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <SDL.h>}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}SDL\_image.h"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ "{}SkillList.h"{}}}
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00014\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_object_combat}{ObjectCombat}}\ \{}
+\DoxyCodeLine{00015\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{float}\ maxHp;\ }
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{float}\ currentHp;\ }
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{float}\ physicalDmg;\ }
+\DoxyCodeLine{00019\ \ \ \ \ \textcolor{keywordtype}{float}\ magicDmg;\ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{keywordtype}{float}\ currentPhysicalDefense;\ }
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{float}\ physicalDefense;\ }
+\DoxyCodeLine{00022\ \ \ \ \ \textcolor{keywordtype}{float}\ currentMagicDefense;\ }
+\DoxyCodeLine{00023\ \ \ \ \ \textcolor{keywordtype}{float}\ magicDefense;\ }
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00026\ \ \ \ \ \mbox{\hyperlink{class_skill_list}{SkillList}}\ \mbox{\hyperlink{class_object_combat_abc82fbbbb789ecffde07a7738b631523}{skills}};\ }
+\DoxyCodeLine{00027\ }
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{class_object_combat_a69aab91d82f32bca837e8b528ca629a0}{ObjectCombat}}(\textcolor{keywordtype}{float}\ MaxHp,\ \textcolor{keywordtype}{float}\ currentHp,\ \textcolor{keywordtype}{float}\ physicalDmg,\ \textcolor{keywordtype}{float}\ magicDmg,\ \textcolor{keywordtype}{float}\ physicalDefense,\ \textcolor{keywordtype}{float}\ magicDefense);}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{class_object_combat_a502c751368fb19483201354ceacea069}{getCurrentHp}}();}
+\DoxyCodeLine{00046\ \ \ \ \ \textcolor{keywordtype}{float}\ getPhysicalDmg();}
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{float}\ getMagicDmg();}
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keywordtype}{float}\ getPhysicalDefense();}
+\DoxyCodeLine{00049\ \ \ \ \ \textcolor{keywordtype}{float}\ getMagicDefense();}
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keywordtype}{float}\ getMaxHp();}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_combat_a81ed78954713f5baa9b5e1da17a65fc5}{getDamage}}(\textcolor{keywordtype}{float}\ physicalDmg,\ \textcolor{keywordtype}{float}\ magicalDmg,\ \mbox{\hyperlink{class_skill}{Skill}}\ skill);}
+\DoxyCodeLine{00060\ }
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_combat_a292309959f993d5cbdd0008a9f9c3322}{getDefenseUp}}(\textcolor{keywordtype}{int}\ typeOfDefense,\ \mbox{\hyperlink{class_skill}{Skill}}\ skill);}
+\DoxyCodeLine{00068\ }
+\DoxyCodeLine{00074\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_combat_ae6974c03b9fb4ad22da20391b5c0057c}{getHeal}}(\mbox{\hyperlink{class_skill}{Skill}}\ skill);}
+\DoxyCodeLine{00075\ }
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_object_combat_a2bd549a04a96a7c411b4f8bf06ea8e34}{setCurrentHp}}(\textcolor{keywordtype}{float}\ newHp);}
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordtype}{void}\ setCurrentMagicDefense(\textcolor{keywordtype}{float}\ newMagicDefense);}
+\DoxyCodeLine{00083\ \ \ \ \ \textcolor{keywordtype}{void}\ setCurrentPhysicalDefense(\textcolor{keywordtype}{float}\ newPhysicalDefense);}
+\DoxyCodeLine{00084\ \};}
+\DoxyCodeLine{00085\ }
+\DoxyCodeLine{00086\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

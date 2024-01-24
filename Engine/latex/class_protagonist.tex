@@ -1,0 +1,641 @@
+\doxysection{Protagonist Class Reference}
+\hypertarget{class_protagonist}{}\label{class_protagonist}\index{Protagonist@{Protagonist}}
+
+
+Klasa reprezentuj¹ca protagonista w grze.  
+
+
+
+
+{\ttfamily \#include $<$Protagonist.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_protagonist_a319da4731e86c91a698bd06ab5990d35}{getX}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera pozycjê X protagonista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_ae0d7392f8f4183730d3bc14930ff9f40}{getY}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera pozycjê Y protagonista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_a50d1db8dae81017f5cd8565eba05284b}{get\+Width}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera szerokoœæ protagonista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_a2cb98313a953c19e6a0461345841c708}{get\+Height}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera wysokoœæ protagonista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_a7113a2af611bc4c12b4f0a47d609a197}{get\+CenterX}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera pozycjê X œrodka protagonista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_adc896f47de89b814823c15f0787bac3e}{get\+CenterY}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera pozycjê Y œrodka protagonista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_a07188306b98828e1095232f416ebe8c6}{get\+Kierunek}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera kierunek poruszania siê protagonista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_a787cb4af376190804bb20c072af26887}{get\+KolizjaW}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera flagi kolizji w kierunku "{}w"{}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_adc7008dfa20845fe03c70d62079d5a37}{get\+KolizjaS}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera flagi kolizji w kierunku "{}s"{}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_a610c8d43812093d3e087b29dc547ae21}{get\+KolizjaA}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera flagi kolizji w kierunku "{}a"{}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_a79d7c65af5f1f9fa54d35a9cbc3140cf}{get\+KolizjaD}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera flagi kolizji w kierunku "{}d"{}. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_ac8e241d203cfee4659c1d572160f3d7e}{get\+Speed}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera prêdkoœæ poruszania siê protagonista. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_ab9e7f41c29e2977c76ffd0a595533db4}{get\+Id\+Obiekt\+Kolidujacego}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera ID obiektu, z którym protagonista koliduje. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_aa238dbfa89e6b5f694f80a9d0fd78d7c}{get\+Kill\+Enemy}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera licznik pokonanych przeciwników. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_protagonist_a7252ef0be5a3cda5e45054d90aa247ce}{get\+Kolizja\+Next\+Level}} ()
+\begin{DoxyCompactList}\small\item\em Pobiera flagê kolizji z obszarem zmiany poziomu. \end{DoxyCompactList}\item 
+\Hypertarget{class_protagonist_a168d2dceec49645e028a791ab1a4bec8}\label{class_protagonist_a168d2dceec49645e028a791ab1a4bec8} 
+void {\bfseries set\+Center} ()
+\begin{DoxyCompactList}\small\item\em Ustawia œrodek protagonista na jego aktualnej pozycji. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_ae03c22bd357ccd4f85d4302352d4f18a}{setX}} (int newX)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycjê X protagonista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_ab64b6b810990c08524d72ad0bd7c35e3}{setY}} (int newY)
+\begin{DoxyCompactList}\small\item\em Ustawia pozycjê Y protagonista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_a71479fbc9a2befd827f305a315f8c048}{set\+Width}} (int new\+Width)
+\begin{DoxyCompactList}\small\item\em Ustawia szerokoœæ protagonista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_a9b1118aaa0c19b2f0cff8b5096341894}{set\+Height}} (int new\+Height)
+\begin{DoxyCompactList}\small\item\em Ustawia wysokoœæ protagonista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_a3ab0c2b2fc6cc2a88efdc133400cf95e}{set\+Kierunek}} (int new\+Kierunek)
+\begin{DoxyCompactList}\small\item\em Ustawia kierunek poruszania siê protagonista. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_aad9a7b373bd545e8e1b9361035563b56}{set\+KolizjaW}} (int new\+KolizjaW)
+\begin{DoxyCompactList}\small\item\em Ustawia flagi kolizji w kierunku "{}w"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_abfbe7723b02a5abc847fa811f3565242}{set\+KolizjaS}} (int new\+KolizjaS)
+\begin{DoxyCompactList}\small\item\em Ustawia flagi kolizji w kierunku "{}s"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_a41725297e5b71b7bfab8c54b475c10a6}{set\+KolizjaA}} (int new\+KolizjaA)
+\begin{DoxyCompactList}\small\item\em Ustawia flagi kolizji w kierunku "{}a"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_ae5527feb017fb95d7374fb996546021e}{set\+KolizjaD}} (int new\+KolizjaD)
+\begin{DoxyCompactList}\small\item\em Ustawia flagi kolizji w kierunku "{}d"{}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_ac8dcf33a144dd4d2d3ff5607496ad582}{set\+Id\+Obiekt\+Kolidujacego}} (int new\+ID)
+\begin{DoxyCompactList}\small\item\em Ustawia ID obiektu, z którym protagonist koliduje. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_a4852a5571eaf0560714dd6965219adc2}{set\+Kill\+Enemy}} (int new\+Kill\+Enemy)
+\begin{DoxyCompactList}\small\item\em Ustawia licznik pokonanych przeciwników. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_a99b5ac5cbd0c67af25ce155904ac69d5}{set\+Kolizja\+Next\+Level}} (int new\+Kolizja\+Next\+Level)
+\begin{DoxyCompactList}\small\item\em Ustawia flagê kolizji z obszarem zmiany poziomu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_a973b138b8fab832082c18f7f718f75e7}{set\+Obraz}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer, const char \texorpdfstring{$\ast$}{*}nowa\+Sciezka\+Obrazu)
+\begin{DoxyCompactList}\small\item\em Ustawia obraz protagonisty. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_a4aab843b6125e4efa70b70e38d58f38a}{kolizja}} (std\+::vector$<$ \mbox{\hyperlink{class_obiekt_mapy}{Obiekt\+Mapy}} $>$ \&object\+List)
+\begin{DoxyCompactList}\small\item\em Obs³uguje kolizje protagonisty z obiektami na mapie. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_protagonist_a923baa46c7e369c776c5bb63ab94474c}{Protagonist}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer, const char \texorpdfstring{$\ast$}{*}sciezka\+Obrazu\+Protagonisty, int x, int y)
+\begin{DoxyCompactList}\small\item\em Konstruktor klasy \doxylink{class_protagonist}{Protagonist}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_protagonist_a0c40c0e710de6dddca56872b5c4ba314}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}renderer)
+\begin{DoxyCompactList}\small\item\em Metoda renderuj¹ca protagonistê na ekranie. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Klasa reprezentuj¹ca protagonista w grze. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{class_protagonist_a923baa46c7e369c776c5bb63ab94474c}\label{class_protagonist_a923baa46c7e369c776c5bb63ab94474c} 
+\index{Protagonist@{Protagonist}!Protagonist@{Protagonist}}
+\index{Protagonist@{Protagonist}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{Protagonist()}{Protagonist()}}
+{\footnotesize\ttfamily Protagonist\+::\+Protagonist (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{sciezka\+Obrazu\+Protagonisty,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+
+
+Konstruktor klasy \doxylink{class_protagonist}{Protagonist}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL. \\
+\hline
+{\em sciezka\+Obrazu\+Protagonisty} & Œcie¿ka do pliku obrazu protagonisty. \\
+\hline
+{\em x} & Pozycja X protagonisty. \\
+\hline
+{\em y} & Pozycja Y protagonisty. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_protagonist_a7113a2af611bc4c12b4f0a47d609a197}\label{class_protagonist_a7113a2af611bc4c12b4f0a47d609a197} 
+\index{Protagonist@{Protagonist}!getCenterX@{getCenterX}}
+\index{getCenterX@{getCenterX}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getCenterX()}{getCenterX()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+CenterX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera pozycjê X œrodka protagonista. 
+
+\begin{DoxyReturn}{Returns}
+Pozycja X œrodka protagonista. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{class_protagonist_a7113a2af611bc4c12b4f0a47d609a197_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_adc896f47de89b814823c15f0787bac3e}\label{class_protagonist_adc896f47de89b814823c15f0787bac3e} 
+\index{Protagonist@{Protagonist}!getCenterY@{getCenterY}}
+\index{getCenterY@{getCenterY}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getCenterY()}{getCenterY()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+CenterY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera pozycjê Y œrodka protagonista. 
+
+\begin{DoxyReturn}{Returns}
+Pozycja Y œrodka protagonista. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_protagonist_adc896f47de89b814823c15f0787bac3e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_a2cb98313a953c19e6a0461345841c708}\label{class_protagonist_a2cb98313a953c19e6a0461345841c708} 
+\index{Protagonist@{Protagonist}!getHeight@{getHeight}}
+\index{getHeight@{getHeight}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getHeight()}{getHeight()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+Height (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera wysokoœæ protagonista. 
+
+\begin{DoxyReturn}{Returns}
+Wysokoœæ protagonista. 
+\end{DoxyReturn}
+\Hypertarget{class_protagonist_ab9e7f41c29e2977c76ffd0a595533db4}\label{class_protagonist_ab9e7f41c29e2977c76ffd0a595533db4} 
+\index{Protagonist@{Protagonist}!getIdObiektKolidujacego@{getIdObiektKolidujacego}}
+\index{getIdObiektKolidujacego@{getIdObiektKolidujacego}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getIdObiektKolidujacego()}{getIdObiektKolidujacego()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+Id\+Obiekt\+Kolidujacego (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera ID obiektu, z którym protagonista koliduje. 
+
+\begin{DoxyReturn}{Returns}
+ID obiektu, z którym protagonista koliduje. 
+\end{DoxyReturn}
+\Hypertarget{class_protagonist_a07188306b98828e1095232f416ebe8c6}\label{class_protagonist_a07188306b98828e1095232f416ebe8c6} 
+\index{Protagonist@{Protagonist}!getKierunek@{getKierunek}}
+\index{getKierunek@{getKierunek}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getKierunek()}{getKierunek()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+Kierunek (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera kierunek poruszania siê protagonista. 
+
+\begin{DoxyReturn}{Returns}
+Kierunek poruszania siê protagonista (1=w, 2=s, 3=a, 4=d). 
+\end{DoxyReturn}
+\Hypertarget{class_protagonist_aa238dbfa89e6b5f694f80a9d0fd78d7c}\label{class_protagonist_aa238dbfa89e6b5f694f80a9d0fd78d7c} 
+\index{Protagonist@{Protagonist}!getKillEnemy@{getKillEnemy}}
+\index{getKillEnemy@{getKillEnemy}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getKillEnemy()}{getKillEnemy()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+Kill\+Enemy (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera licznik pokonanych przeciwników. 
+
+\begin{DoxyReturn}{Returns}
+Licznik pokonanych przeciwników. 
+\end{DoxyReturn}
+\Hypertarget{class_protagonist_a610c8d43812093d3e087b29dc547ae21}\label{class_protagonist_a610c8d43812093d3e087b29dc547ae21} 
+\index{Protagonist@{Protagonist}!getKolizjaA@{getKolizjaA}}
+\index{getKolizjaA@{getKolizjaA}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getKolizjaA()}{getKolizjaA()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+KolizjaA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera flagi kolizji w kierunku "{}a"{}. 
+
+\begin{DoxyReturn}{Returns}
+Flagi kolizji w kierunku "{}a"{}. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_protagonist_a610c8d43812093d3e087b29dc547ae21_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_a79d7c65af5f1f9fa54d35a9cbc3140cf}\label{class_protagonist_a79d7c65af5f1f9fa54d35a9cbc3140cf} 
+\index{Protagonist@{Protagonist}!getKolizjaD@{getKolizjaD}}
+\index{getKolizjaD@{getKolizjaD}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getKolizjaD()}{getKolizjaD()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+KolizjaD (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera flagi kolizji w kierunku "{}d"{}. 
+
+\begin{DoxyReturn}{Returns}
+Flagi kolizji w kierunku "{}d"{}. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_protagonist_a79d7c65af5f1f9fa54d35a9cbc3140cf_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_a7252ef0be5a3cda5e45054d90aa247ce}\label{class_protagonist_a7252ef0be5a3cda5e45054d90aa247ce} 
+\index{Protagonist@{Protagonist}!getKolizjaNextLevel@{getKolizjaNextLevel}}
+\index{getKolizjaNextLevel@{getKolizjaNextLevel}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getKolizjaNextLevel()}{getKolizjaNextLevel()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+Kolizja\+Next\+Level (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera flagê kolizji z obszarem zmiany poziomu. 
+
+\begin{DoxyReturn}{Returns}
+Flaga kolizji z obszarem zmiany poziomu. 
+\end{DoxyReturn}
+\Hypertarget{class_protagonist_adc7008dfa20845fe03c70d62079d5a37}\label{class_protagonist_adc7008dfa20845fe03c70d62079d5a37} 
+\index{Protagonist@{Protagonist}!getKolizjaS@{getKolizjaS}}
+\index{getKolizjaS@{getKolizjaS}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getKolizjaS()}{getKolizjaS()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+KolizjaS (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera flagi kolizji w kierunku "{}s"{}. 
+
+\begin{DoxyReturn}{Returns}
+Flagi kolizji w kierunku "{}s"{}. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_protagonist_adc7008dfa20845fe03c70d62079d5a37_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_a787cb4af376190804bb20c072af26887}\label{class_protagonist_a787cb4af376190804bb20c072af26887} 
+\index{Protagonist@{Protagonist}!getKolizjaW@{getKolizjaW}}
+\index{getKolizjaW@{getKolizjaW}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getKolizjaW()}{getKolizjaW()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+KolizjaW (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera flagi kolizji w kierunku "{}w"{}. 
+
+\begin{DoxyReturn}{Returns}
+Flagi kolizji w kierunku "{}w"{}. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_protagonist_a787cb4af376190804bb20c072af26887_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_ac8e241d203cfee4659c1d572160f3d7e}\label{class_protagonist_ac8e241d203cfee4659c1d572160f3d7e} 
+\index{Protagonist@{Protagonist}!getSpeed@{getSpeed}}
+\index{getSpeed@{getSpeed}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getSpeed()}{getSpeed()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+Speed (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera prêdkoœæ poruszania siê protagonista. 
+
+\begin{DoxyReturn}{Returns}
+Prêdkoœæ poruszania siê protagonista. 
+\end{DoxyReturn}
+\Hypertarget{class_protagonist_a50d1db8dae81017f5cd8565eba05284b}\label{class_protagonist_a50d1db8dae81017f5cd8565eba05284b} 
+\index{Protagonist@{Protagonist}!getWidth@{getWidth}}
+\index{getWidth@{getWidth}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getWidth()}{getWidth()}}
+{\footnotesize\ttfamily int Protagonist\+::get\+Width (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera szerokoœæ protagonista. 
+
+\begin{DoxyReturn}{Returns}
+Szerokoœæ protagonista. 
+\end{DoxyReturn}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_protagonist_a50d1db8dae81017f5cd8565eba05284b_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_a319da4731e86c91a698bd06ab5990d35}\label{class_protagonist_a319da4731e86c91a698bd06ab5990d35} 
+\index{Protagonist@{Protagonist}!getX@{getX}}
+\index{getX@{getX}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getX()}{getX()}}
+{\footnotesize\ttfamily int Protagonist\+::getX (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera pozycjê X protagonista. 
+
+\begin{DoxyReturn}{Returns}
+Pozycja X protagonista. 
+\end{DoxyReturn}
+\Hypertarget{class_protagonist_ae0d7392f8f4183730d3bc14930ff9f40}\label{class_protagonist_ae0d7392f8f4183730d3bc14930ff9f40} 
+\index{Protagonist@{Protagonist}!getY@{getY}}
+\index{getY@{getY}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{getY()}{getY()}}
+{\footnotesize\ttfamily int Protagonist\+::getY (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Pobiera pozycjê Y protagonista. 
+
+\begin{DoxyReturn}{Returns}
+Pozycja Y protagonista. 
+\end{DoxyReturn}
+\Hypertarget{class_protagonist_a4aab843b6125e4efa70b70e38d58f38a}\label{class_protagonist_a4aab843b6125e4efa70b70e38d58f38a} 
+\index{Protagonist@{Protagonist}!kolizja@{kolizja}}
+\index{kolizja@{kolizja}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{kolizja()}{kolizja()}}
+{\footnotesize\ttfamily void Protagonist\+::kolizja (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_obiekt_mapy}{Obiekt\+Mapy}} $>$ \&}]{object\+List }\end{DoxyParamCaption})}
+
+
+
+Obs³uguje kolizje protagonisty z obiektami na mapie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em object\+List} & Lista obiektów na mapie. \\
+\hline
+\end{DoxyParams}
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_protagonist_a4aab843b6125e4efa70b70e38d58f38a_cgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_a0c40c0e710de6dddca56872b5c4ba314}\label{class_protagonist_a0c40c0e710de6dddca56872b5c4ba314} 
+\index{Protagonist@{Protagonist}!render@{render}}
+\index{render@{render}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void Protagonist\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer }\end{DoxyParamCaption})}
+
+
+
+Metoda renderuj¹ca protagonistê na ekranie. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_protagonist_a9b1118aaa0c19b2f0cff8b5096341894}\label{class_protagonist_a9b1118aaa0c19b2f0cff8b5096341894} 
+\index{Protagonist@{Protagonist}!setHeight@{setHeight}}
+\index{setHeight@{setHeight}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setHeight()}{setHeight()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+Height (\begin{DoxyParamCaption}\item[{int}]{new\+Height }\end{DoxyParamCaption})}
+
+
+
+Ustawia wysokoœæ protagonista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Height} & Nowa wysokoœæ protagonista. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_protagonist_ac8dcf33a144dd4d2d3ff5607496ad582}\label{class_protagonist_ac8dcf33a144dd4d2d3ff5607496ad582} 
+\index{Protagonist@{Protagonist}!setIdObiektKolidujacego@{setIdObiektKolidujacego}}
+\index{setIdObiektKolidujacego@{setIdObiektKolidujacego}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setIdObiektKolidujacego()}{setIdObiektKolidujacego()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+Id\+Obiekt\+Kolidujacego (\begin{DoxyParamCaption}\item[{int}]{new\+ID }\end{DoxyParamCaption})}
+
+
+
+Ustawia ID obiektu, z którym protagonist koliduje. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+ID} & Nowe ID obiektu koliduj¹cego. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_protagonist_ac8dcf33a144dd4d2d3ff5607496ad582_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_a3ab0c2b2fc6cc2a88efdc133400cf95e}\label{class_protagonist_a3ab0c2b2fc6cc2a88efdc133400cf95e} 
+\index{Protagonist@{Protagonist}!setKierunek@{setKierunek}}
+\index{setKierunek@{setKierunek}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setKierunek()}{setKierunek()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+Kierunek (\begin{DoxyParamCaption}\item[{int}]{new\+Kierunek }\end{DoxyParamCaption})}
+
+
+
+Ustawia kierunek poruszania siê protagonista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Kierunek} & Nowy kierunek poruszania siê protagonista (1=w, 2=s, 3=a, 4=d). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_protagonist_a4852a5571eaf0560714dd6965219adc2}\label{class_protagonist_a4852a5571eaf0560714dd6965219adc2} 
+\index{Protagonist@{Protagonist}!setKillEnemy@{setKillEnemy}}
+\index{setKillEnemy@{setKillEnemy}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setKillEnemy()}{setKillEnemy()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+Kill\+Enemy (\begin{DoxyParamCaption}\item[{int}]{new\+Kill\+Enemy }\end{DoxyParamCaption})}
+
+
+
+Ustawia licznik pokonanych przeciwników. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Kill\+Enemy} & Nowa wartoœæ licznika pokonanych przeciwników. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_protagonist_a41725297e5b71b7bfab8c54b475c10a6}\label{class_protagonist_a41725297e5b71b7bfab8c54b475c10a6} 
+\index{Protagonist@{Protagonist}!setKolizjaA@{setKolizjaA}}
+\index{setKolizjaA@{setKolizjaA}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setKolizjaA()}{setKolizjaA()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+KolizjaA (\begin{DoxyParamCaption}\item[{int}]{new\+KolizjaA }\end{DoxyParamCaption})}
+
+
+
+Ustawia flagi kolizji w kierunku "{}a"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+KolizjaA} & Nowe flagi kolizji w kierunku "{}a"{}. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_protagonist_a41725297e5b71b7bfab8c54b475c10a6_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_ae5527feb017fb95d7374fb996546021e}\label{class_protagonist_ae5527feb017fb95d7374fb996546021e} 
+\index{Protagonist@{Protagonist}!setKolizjaD@{setKolizjaD}}
+\index{setKolizjaD@{setKolizjaD}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setKolizjaD()}{setKolizjaD()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+KolizjaD (\begin{DoxyParamCaption}\item[{int}]{new\+KolizjaD }\end{DoxyParamCaption})}
+
+
+
+Ustawia flagi kolizji w kierunku "{}d"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+KolizjaD} & Nowe flagi kolizji w kierunku "{}d"{}. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_protagonist_ae5527feb017fb95d7374fb996546021e_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_a99b5ac5cbd0c67af25ce155904ac69d5}\label{class_protagonist_a99b5ac5cbd0c67af25ce155904ac69d5} 
+\index{Protagonist@{Protagonist}!setKolizjaNextLevel@{setKolizjaNextLevel}}
+\index{setKolizjaNextLevel@{setKolizjaNextLevel}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setKolizjaNextLevel()}{setKolizjaNextLevel()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+Kolizja\+Next\+Level (\begin{DoxyParamCaption}\item[{int}]{new\+Kolizja\+Next\+Level }\end{DoxyParamCaption})}
+
+
+
+Ustawia flagê kolizji z obszarem zmiany poziomu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Kolizja\+Next\+Level} & Nowa wartoœæ flagi kolizji z obszarem zmiany poziomu. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_protagonist_abfbe7723b02a5abc847fa811f3565242}\label{class_protagonist_abfbe7723b02a5abc847fa811f3565242} 
+\index{Protagonist@{Protagonist}!setKolizjaS@{setKolizjaS}}
+\index{setKolizjaS@{setKolizjaS}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setKolizjaS()}{setKolizjaS()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+KolizjaS (\begin{DoxyParamCaption}\item[{int}]{new\+KolizjaS }\end{DoxyParamCaption})}
+
+
+
+Ustawia flagi kolizji w kierunku "{}s"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+KolizjaS} & Nowe flagi kolizji w kierunku "{}s"{}. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{class_protagonist_abfbe7723b02a5abc847fa811f3565242_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_aad9a7b373bd545e8e1b9361035563b56}\label{class_protagonist_aad9a7b373bd545e8e1b9361035563b56} 
+\index{Protagonist@{Protagonist}!setKolizjaW@{setKolizjaW}}
+\index{setKolizjaW@{setKolizjaW}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setKolizjaW()}{setKolizjaW()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+KolizjaW (\begin{DoxyParamCaption}\item[{int}]{new\+KolizjaW }\end{DoxyParamCaption})}
+
+
+
+Ustawia flagi kolizji w kierunku "{}w"{}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+KolizjaW} & Nowe flagi kolizji w kierunku "{}w"{}. \\
+\hline
+\end{DoxyParams}
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=339pt]{class_protagonist_aad9a7b373bd545e8e1b9361035563b56_icgraph}
+\end{center}
+\end{figure}
+\Hypertarget{class_protagonist_a973b138b8fab832082c18f7f718f75e7}\label{class_protagonist_a973b138b8fab832082c18f7f718f75e7} 
+\index{Protagonist@{Protagonist}!setObraz@{setObraz}}
+\index{setObraz@{setObraz}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setObraz()}{setObraz()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+Obraz (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}}]{renderer,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{nowa\+Sciezka\+Obrazu }\end{DoxyParamCaption})}
+
+
+
+Ustawia obraz protagonisty. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em renderer} & WskaŸnik do renderera SDL. \\
+\hline
+{\em nowa\+Sciezka\+Obrazu} & Œcie¿ka do nowego pliku obrazu. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_protagonist_a71479fbc9a2befd827f305a315f8c048}\label{class_protagonist_a71479fbc9a2befd827f305a315f8c048} 
+\index{Protagonist@{Protagonist}!setWidth@{setWidth}}
+\index{setWidth@{setWidth}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setWidth()}{setWidth()}}
+{\footnotesize\ttfamily void Protagonist\+::set\+Width (\begin{DoxyParamCaption}\item[{int}]{new\+Width }\end{DoxyParamCaption})}
+
+
+
+Ustawia szerokoœæ protagonista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Width} & Nowa szerokoœæ protagonista. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_protagonist_ae03c22bd357ccd4f85d4302352d4f18a}\label{class_protagonist_ae03c22bd357ccd4f85d4302352d4f18a} 
+\index{Protagonist@{Protagonist}!setX@{setX}}
+\index{setX@{setX}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setX()}{setX()}}
+{\footnotesize\ttfamily void Protagonist\+::setX (\begin{DoxyParamCaption}\item[{int}]{newX }\end{DoxyParamCaption})}
+
+
+
+Ustawia pozycjê X protagonista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em newX} & Nowa pozycja X protagonista. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_protagonist_ab64b6b810990c08524d72ad0bd7c35e3}\label{class_protagonist_ab64b6b810990c08524d72ad0bd7c35e3} 
+\index{Protagonist@{Protagonist}!setY@{setY}}
+\index{setY@{setY}!Protagonist@{Protagonist}}
+\doxysubsubsection{\texorpdfstring{setY()}{setY()}}
+{\footnotesize\ttfamily void Protagonist\+::setY (\begin{DoxyParamCaption}\item[{int}]{newY }\end{DoxyParamCaption})}
+
+
+
+Ustawia pozycjê Y protagonista. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em newY} & Nowa pozycja Y protagonista. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Protagonist.\+h\item 
+Protagonist.\+cpp\end{DoxyCompactItemize}
